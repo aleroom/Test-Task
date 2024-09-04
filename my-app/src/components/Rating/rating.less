@@ -1,0 +1,26 @@
+.rating {
+    display: flex;
+    align-items: center;
+    .star {
+      width: 20px;
+      height: 20px;
+      fill: currentColor; // цвет звездочки
+      margin-right: 5px;
+    }
+  }
+  
+  .star {
+    &--half {
+      path {
+        stroke-dasharray: 17;
+        stroke-dashoffset: 8.5;
+        animation: dash 0.5s linear forwards;
+      }
+    }
+  }
+  
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }

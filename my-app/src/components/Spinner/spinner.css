@@ -1,0 +1,57 @@
+.spinner-container {
+  background-color: #000;
+  /* черный фон */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.spinner {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+.spinner .dot {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #00D749;
+  animation: spin 2s linear infinite;
+}
+.spinner .dot:nth-child(1) {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-delay: 0s;
+}
+.spinner .dot:nth-child(2) {
+  top: 30%;
+  left: 70%;
+  animation-delay: 0.2s;
+}
+.spinner .dot:nth-child(3) {
+  top: 10%;
+  left: 50%;
+  animation-delay: 0.4s;
+}
+.spinner .dot:nth-child(4) {
+  top: 30%;
+  left: 30%;
+  animation-delay: 0.6s;
+}
+.spinner .dot:nth-child(5) {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-delay: 0.8s;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
