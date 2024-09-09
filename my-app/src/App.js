@@ -3,6 +3,7 @@ import React from 'react';
 import './styles.less';
 
 import Header from './components/Header/header.jsx';
+import TaskBoard from './components/TaskBoard/taskBoard';
 
 
 
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
       <div>
         <Header />
+        <TaskBoard />
        
      
       

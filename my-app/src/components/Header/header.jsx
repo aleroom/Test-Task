@@ -13,7 +13,7 @@ const Header = () => {
         <span>Pocker</span>
         <Spinner />
         <PlayerInfo />
-        <Loader />
+        <Loader/>
       </div>
     </header>
   );
