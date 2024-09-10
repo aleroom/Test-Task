@@ -3,15 +3,11 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  max-width: 500px;
+  width: 297px;
   margin: 0 auto;
-  padding: 20px;
-  border-radius: 5px;
 }
-.player-info__name,
-.player-info__cost {
+.player-info__name {
   font-size: 16px;
-  width: 100%;
 }
 .player-info__cost img {
   width: 100%;
@@ -19,15 +15,9 @@
   object-fit: cover;
   border-radius: 5px;
 }
-.player-info__cost {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
 .player-info__cost-ellipse {
   display: flex;
-  width: 150px;
-  height: 26px;
+  width: 100%;
   background-color: #373352;
   border-radius: 60px;
 }
@@ -36,10 +26,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 14px;
 }
 .player-info__cost-green-ellipse {
   display: flex;
-  width: 35px;
+  width: 30px;
   height: 26px;
   background-color: #00BB40;
   border-radius: 60px;

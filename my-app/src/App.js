@@ -14,6 +14,10 @@ function App() {
       <div>
         <Header />
         <TaskBoard />
+        <TaskBoard/>
+        <TaskBoard/>
+        <TaskBoard/>
+        <TaskBoard/>
        
      
       

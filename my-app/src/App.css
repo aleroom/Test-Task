@@ -1,6 +1,8 @@
 .App {
   text-align: center;
   font-family: '/my-app/public/fonts/Montserrat-Regular.ttf';
+  max-width: 320px;
+  margin: 0 auto;
   
 }
 
